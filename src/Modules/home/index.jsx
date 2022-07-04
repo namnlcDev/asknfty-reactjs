@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import HomeLayout from '../layouts/home'
 import { FilterBlock, Sort } from './components'
-import { TextNormal, Container, CheckboxGroup, FormInput } from 'Components'
+import { TextNormal, Container, CheckboxGroup, FormInput, CardSearch } from 'Components'
 import { SEARCH_ICON, WELCOME } from 'Assets'
 import { useGetNftAllCollection } from 'Hooks'
 import { CheckBoxWrapper, Wrapper } from './styled'
@@ -50,18 +50,13 @@ const HomeScreen = () => {
             </div>
             <FilterBlock />
           </div>
+          <CardSearch
+            url="https://img.seadn.io/files/1b7241651acf9119214584f794d25655.png?fit=max&w=600"
+            name="Sparkle"
+            title="Pancake Bunnies"
+          />
+          {/* <CardSearch /> */}
         </Container>
-        {/* <Container>
-          <div className="search-block">
-            <img src={WELCOME} alt="welcome" />
-            <div className="label">
-              <TextNormal fontSize="size_32" fontWeight="fw_700">
-                Find a NFT Collection
-              </TextNormal>
-            </div>
-            <FilterBlock />
-          </div>
-        </Container> */}
       </Wrapper>
     )
   }

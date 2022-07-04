@@ -62,7 +62,7 @@ const Sort = ({ sorts, setValue }) => {
             text="Reset"
             fontSize="size_20"
             fontWeight="fw_700"
-            color="reset_btn"
+            color="text_primary"
             onClick={onReset}
           />
         </ButtonGroup>

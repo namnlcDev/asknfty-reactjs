@@ -9,29 +9,28 @@ import { BrowserRouter } from 'react-router-dom'
 import 'antd/dist/antd.css'
 
 const LoadingStyled = styled.div`
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
-
 const App = () => {
-    const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true)
 
-    if (!loading) {
-        return (
-            <LoadingStyled>
-                <Spin size="large" />
-            </LoadingStyled>
-        )
-    }
-
+  if (!loading) {
     return (
-        <>
-            <Approutes />
-        </>
+      <LoadingStyled>
+        <Spin size="large" />
+      </LoadingStyled>
     )
+  }
+
+  return (
+    <>
+      <Approutes />
+    </>
+  )
 }
 
 export default App

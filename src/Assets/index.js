@@ -3,7 +3,6 @@ import LOGO_COMPANY from './images/logo-company.png'
 import SEARCH_ICON from './images/search-icon.png'
 import LOGO_FOOTER from './images/logo-footer.png'
 import WELCOME from './images/welcome.png'
-import BG_WELCOME from './images/bg-welcome.png'
 import HERO from './images/hero.png'
 import HERO_NFTY from './images/hero-asknfty.png'
 import STAR_YELLOW from './images/star-yellow.png'
@@ -41,67 +40,93 @@ import CRYPTO_CENTER_MOBILE from './images/crypto-center-mobile.png'
 import HERO_NFTY_MOBILE from './images/hero-nfty-mobile.png'
 import SUB_LOGIN from './images/sub-login.png'
 import AVATAR_DEFAULT from './images/avatar-default.png'
+
+// Background screen
 import BG_WELCOME_MOBILE from './images/bg-welcome-mobile.png'
+import BG_WELCOME from './images/bg-welcome.png'
+import BG_COLLECTION_DETAIL from './images/background-collection-detail.png'
+
 // Image background button
 import BG_BUTTON_APPLY_UN_ACTIVE from './images/bg-btn-apply-unActive.png'
 import BG_BUTTON_APPLY_ACTIVE from './images/bg-btn-apply-active.png'
+import BG_BUTTON_TURN_ON_ALERT from './images/bg-btn-turn-on-alert.png'
 import BG_BUTTON_RESET from './images/bg-button-reset.png'
+import BG_BUTTON_LOAD_MORE from './images/bg-btn-load-more.png'
 
 // ICON
+import ICON_EYE from './images/icon-eye.png'
+import ICON_HEART from './images/icon-heart.png'
+import ICON_HEART_OUTLINED from './images/icon-heart-outlined.png'
 
 // import ICON_ARROW_DOWN from './icons/arrow-down.svg'
 // import ICON_ARROW_UP_LONG from './icons/arrow-down.svg'
 import ICON_ARROW_DOWN from './images/arrow-down.png'
 import ICON_ARROW_UP_LONG from './images/arrow-up-long.png'
+import ICON_INCLUDE from './images/icon-include.png'
+import ICON_ON_EXCHANGE from './images/icon-on-exchange.png'
+import ICON_FLOOR_PRICE from './images/icon-floor-price.png'
+import ICON_VOLUME_TRADED from './images/icon-volume-traded.png'
+import ICON_NFT_PRICE from './images/icon-nft-price.png'
 
 export {
-    IMG_DEFAULT,
-    LOGO_COMPANY,
-    SEARCH_ICON,
-    LOGO_FOOTER,
-    WELCOME,
-    BG_WELCOME,
-    HERO,
-    HERO_NFTY,
-    STAR_YELLOW,
-    CURRENT_ITEM,
-    CURRENT_RIGHT,
-    BG_CURRENT,
-    ART_BO,
-    BG_ART,
-    SB_ART,
-    BG_PARTNER,
-    OPENSEA,
-    COVALENT,
-    LOOKSRARE,
-    X2Y2,
-    SPICY,
-    SIMPLE,
-    PARTNER_ITEM,
-    GLOBAL,
-    MAIL,
-    TWITTER,
-    WINDOW_SEA,
-    WINDOW_SMILE,
-    BG_FEATURE,
-    STAR_FEATURE,
-    DIFFERENCE_LEFT,
-    DIFFERENCE_ITEM,
-    BG_DIFFERENCE,
-    BG_ECO,
-    QUOTE,
-    CRYPTO_CENTER,
-    BG_CRYPTO,
-    SEARCH_BOTTOM,
-    SEARCH_CENTER,
-    CRYPTO_CENTER_MOBILE,
-    HERO_NFTY_MOBILE,
-    SUB_LOGIN,
-    AVATAR_DEFAULT,
-    BG_WELCOME_MOBILE,
-    BG_BUTTON_APPLY_ACTIVE,
-    BG_BUTTON_APPLY_UN_ACTIVE,
-    BG_BUTTON_RESET,
-    ICON_ARROW_DOWN,
-    ICON_ARROW_UP_LONG
+  IMG_DEFAULT,
+  LOGO_COMPANY,
+  SEARCH_ICON,
+  LOGO_FOOTER,
+  WELCOME,
+  BG_WELCOME,
+  HERO,
+  HERO_NFTY,
+  STAR_YELLOW,
+  CURRENT_ITEM,
+  CURRENT_RIGHT,
+  BG_CURRENT,
+  ART_BO,
+  BG_ART,
+  SB_ART,
+  BG_PARTNER,
+  OPENSEA,
+  COVALENT,
+  LOOKSRARE,
+  X2Y2,
+  SPICY,
+  SIMPLE,
+  PARTNER_ITEM,
+  GLOBAL,
+  MAIL,
+  TWITTER,
+  WINDOW_SEA,
+  WINDOW_SMILE,
+  BG_FEATURE,
+  STAR_FEATURE,
+  DIFFERENCE_LEFT,
+  DIFFERENCE_ITEM,
+  BG_DIFFERENCE,
+  BG_ECO,
+  QUOTE,
+  CRYPTO_CENTER,
+  BG_CRYPTO,
+  SEARCH_BOTTOM,
+  SEARCH_CENTER,
+  CRYPTO_CENTER_MOBILE,
+  HERO_NFTY_MOBILE,
+  SUB_LOGIN,
+  AVATAR_DEFAULT,
+  BG_WELCOME_MOBILE,
+  BG_COLLECTION_DETAIL,
+  BG_BUTTON_APPLY_ACTIVE,
+  BG_BUTTON_APPLY_UN_ACTIVE,
+  BG_BUTTON_TURN_ON_ALERT,
+  BG_BUTTON_RESET,
+  BG_BUTTON_LOAD_MORE,
+  ICON_ARROW_DOWN,
+  ICON_ARROW_UP_LONG,
+  ICON_EYE,
+  ICON_HEART,
+  ICON_HEART_OUTLINED,
+  ICON_INCLUDE,
+  ICON_ON_EXCHANGE,
+  ICON_FLOOR_PRICE,
+  ICON_VOLUME_TRADED,
+  ICON_NFT_PRICE
 }
