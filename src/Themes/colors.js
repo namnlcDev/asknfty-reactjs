@@ -29,9 +29,17 @@ export const Colors = {
     bg_border: '#d9d9d9',
     bg_yellow_white: 'rgb(255, 255, 200)',
     bg_yellow_white_low: '#FFFBE6',
+    bg_yellow_hight: '#F7A75D',
     bg_cyan_white: 'rgb(205, 236, 255)',
+    bg_blue_light: '#6AD2D8',
+    bg_orange_low: '#E67474',
+    bg_green_low: '#B0C86B',
+    bg_green_yellow: '#DEE798',
+    bg_green_dark: '#BDCF30',
+    bg_grey_low: '#DADADA',
+    bg_grey_light: '#F2F2F2',
     // color for text
-    text_primary: '#1A1A1A',
+    text_primary: '#292929',
     text_secondary: '#838383',
     text_thirsdary: '#1480FF',
     text_placeholder: '#D3D3D3',
@@ -39,13 +47,15 @@ export const Colors = {
     text_tab_color: '#D3D3D3',
     text_danger: '#F33A27',
     text_active_green: '#00C271',
+    text_grey: '#4E4B4B',
+    title_grey: '#837d7d',
+    text_red: '#D92626',
 
     // btn color
     primary_btn: '#00C271',
     secondary_btn: '#FFA928',
     fb_color: '#09519B',
     google_color: '#F14436',
-    reset_btn: '#292929',
 
     // progress
     progress_success: '#07CF84',
@@ -68,6 +78,7 @@ export const Colors = {
     grey: '#838383',
     grey_light: '#1F1F1F',
     grey_blur: '#F1F1F1',
+    grey_low: '#837D7D',
     grey_mid: '#F5F5F8',
     grey_disable: '#cccccc',
     white_disable: '#f5f5f5',
